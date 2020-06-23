@@ -1,0 +1,424 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display:none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .bg{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  
+  /*.background {
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2019/10/15/sunrise-at-ciwidey-bandung-regency-west-java-indonesia-wallpaper.jpg);
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+  }*/
+
+ /* .top-wrapper {
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2019/10/15/sunrise-at-ciwidey-bandung-regency-west-java-indonesia-wallpaper.jpg);
+    background-size: cover;
+    padding: 180px 0 100px 0;
+  } */
+
+ /* .top-wrapper{
+    position: relative;
+    margin: auto;
+    max-width: 1000px;
+  }*/
+
+/*  .top-wrapper{
+    width: 100%;
+    height: 100%;
+  }
+
+  .slider{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  .bg{
+    display: none;
+  }
+
+  .prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover{
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+/*  .bg{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+*/
+
+/*.img1, .img2, .img3{
+    width: 100%;
+    height: 100%;
+}
+ */ 
+
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(95, 93, 96, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 70px;
+    height: auto;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(40, 184, 97, 0.3);
+  }
+  
+
+  .content-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color:#E0E0E0;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .content {
+    float: left;
+    width: 25%;
+  }
+  
+  .content-icon {
+    position: relative;
+  }
+  
+ 
+  .text-contents{
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+    font-weight: bold;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    /*background-color:#E0E0E0;*/
+    text-align: center;
+
+    /*border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;*/
+  }
+  
+  .news{
+    float: left;
+    width: 50%;
+  }
+
+  .news-img{
+    position: relative;
+  }
+
+  .imgnews{
+    width: 300px;
+    height: 300px;
+  }
+
+  .news-context {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color:  #5f5d60;
+  }
+
+  .news h3{
+    margin-bottom: 5px;
+  }
+  
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #5f5d60;
+  }
+
+  #myDiv
+{
+    cursor: pointer;
+}
+
+/*html {
+  cursor: none;
+}*/
+
+#track {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+#track #one-circle {
+  position: absolute;
+  -webkit-animation: moment 2s infinite;
+  animation: moment 2s infinite;
+  background: #fff;
+  border-radius: 50%;
+  height: 0em;
+  width: 0em;
+  margin-top: 0em;
+  margin-left: 0em;
+}
+
+#track #two-circle {
+  position: absolute;
+  -webkit-animation: moment 4s infinite;
+  animation: moment 4s infinite;
+  background: rgba(40, 184, 97,0.8);
+  border-radius: 50%;
+  height: 0em;
+  width: 0em;
+  margin-top: 0em;
+  margin-left: 0em;
+}
+@-moz-keyframes moment {
+  0% {
+    opacity: 0.2;
+    height: 1em;
+    width: 1em;
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+  }
+  50% {
+    opacity: 0.9;
+    height: 3em;
+    width: 3em;
+    margin-top: -1.5em;
+    margin-left: -1.5em;
+  }
+  100% {
+    opacity: 0.2;
+    height: 1em;
+    width: 1em;
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+  }
+}
+
+@-webkit-keyframes moment {
+  0% {
+    opacity: 0.2;
+    height: 1em;
+    width: 1em;
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+  }
+  50% {
+    opacity: 0.9;
+    height: 3em;
+    width: 3em;
+    margin-top: -1.5em;
+    margin-left: -1.5em;
+  }
+  100% {
+    opacity: 0.2;
+    height: 1em;
+    width: 1em;
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+  }
+}
+
+@-o-keyframes moment {
+  0% {
+    opacity: 0.2;
+    height: 1em;
+    width: 1em;
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+  }
+  50% {
+    opacity: 0.9;
+    height: 3em;
+    width: 3em;
+    margin-top: -1.5em;
+    margin-left: -1.5em;
+  }
+  100% {
+    opacity: 0.2;
+    height: 1em;
+    width: 1em;
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+  }
+}
+
+@keyframes moment {
+  0% {
+    opacity: 0.2;
+    height: 1em;
+    width: 1em;
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+  }
+  50% {
+    opacity: 0.9;
+    height: 3em;
+    width: 3em;
+    margin-top: -1.5em;
+    margin-left: -1.5em;
+  }
+  100% {
+    opacity: 0.2;
+    height: 1em;
+    width: 1em;
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+  }
+}
